@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  MapKitTest
-//
-//  Created by ききょ on 2019/03/29.
-//  Copyright © 2019 kikyo. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

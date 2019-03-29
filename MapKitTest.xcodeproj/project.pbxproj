@@ -14,6 +14,7 @@
 		CF13CAA1224DA31D005523EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF13CA9F224DA31D005523EC /* LaunchScreen.storyboard */; };
 		CF13CAAC224DA31D005523EC /* MapKitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13CAAB224DA31D005523EC /* MapKitTestTests.swift */; };
 		CF13CAB7224DA31D005523EC /* MapKitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13CAB6224DA31D005523EC /* MapKitTestUITests.swift */; };
+		CF13CAC6224DB05D005523EC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF13CAC5224DB05C005523EC /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CF13CAB2224DA31D005523EC /* MapKitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF13CAB6224DA31D005523EC /* MapKitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitTestUITests.swift; sourceTree = "<group>"; };
 		CF13CAB8224DA31D005523EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF13CAC5224DB05C005523EC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF13CAC6224DB05D005523EC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				CF13CAAA224DA31D005523EC /* MapKitTestTests */,
 				CF13CAB5224DA31D005523EC /* MapKitTestUITests */,
 				CF13CA94224DA31A005523EC /* Products */,
+				CF13CAC4224DB05C005523EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				CF13CAB8224DA31D005523EC /* Info.plist */,
 			);
 			path = MapKitTestUITests;
+			sourceTree = "<group>";
+		};
+		CF13CAC4224DB05C005523EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF13CAC5224DB05C005523EC /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
